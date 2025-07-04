@@ -12,7 +12,7 @@ const UnitOverview = ({ unitId, onBack, onLessonClick, darkMode, onContinue }) =
     const fetchUnitData = async () => {
       try {
         setLoading(true);
-        const url = `/content/units/${unitId}/unit-overview.json`;
+        const url = `${process.env.PUBLIC_URL}/content/units/${unitId}/unit-overview.json`;
         console.log('Trying to fetch:', url);
         const response = await fetch(url);
         console.log('Response status:', response.status);
