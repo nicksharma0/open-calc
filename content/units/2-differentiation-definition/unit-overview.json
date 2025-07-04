@@ -1,0 +1,121 @@
+{
+  "unitId": "2-differentiation-definition",
+  "title": "Unit 2: Definition and Fundamental Properties of Differentiation",
+  "subtitle": "Understanding How Things Change Instantly",
+  "examWeighting": "10-12%",
+  "icon": "f′",
+  "description": "Master the power of instantaneous rates of change.",
+  "objectives": [
+    "Understand how to find the slope of a curve using derivatives, including vertical tangents and points with no tangent.",
+    "Use tangent lines for local linear approximations and to model real-world behavior.",
+    "Learn the definition of a derivative using limits and difference quotients.",
+    "Master rules for finding derivatives: Power Rule, Sum/Difference, Constant, Product, Quotient, Chain Rule, and more.",
+    "Differentiate trigonometric functions like sin(x), cos(x), and other advanced functions.",
+    "Apply derivatives to calculate velocity, acceleration, and rates of change in real-world scenarios.",
+    "Estimate and interpret rate of change using graphs, tables, and equations.",
+    "Translate between real-life descriptions and equations involving derivatives."
+  ],
+  "bigIdeas": [
+    "Derivatives tell us how fast something is changing at an exact moment—like speed at an instant.",
+    "Rules and limits help us simplify how we find those rates of change across different functions.",
+    "If a derivative is positive, the original function is increasing—helpful in understanding trends.",
+    "You can use derivatives to model real-world problems, like education spending or motion.",
+    "Recognizing patterns and applying the right rule makes complex differentiation easier.",
+    "Derivatives can become functions too—this helps us understand both the function and its behavior."
+  ],
+  "lessons": [
+    {
+      "id": "2.1",
+      "title": "Defining Average and Instantaneous Rates of Change at a Point",
+      "description": "Identify and compute rates of change from graphical, numerical, and analytical data.",
+      "duration": "45 minutes",
+      "difficulty": "Beginner",
+      "file": "2.1-average-instantaneous-rates.md"
+    },
+    {
+      "id": "2.2",
+      "title": "Defining the Derivative of a Function and Using Derivative Notation",
+      "description": "Learn the formal definition of the derivative and appropriate notation.",
+      "duration": "60 minutes",
+      "difficulty": "Beginner",
+      "file": "2.2-derivative-definition-notation.md"
+    },
+    {
+      "id": "2.3",
+      "title": "Estimating Derivatives of a Function at a Point",
+      "description": "Apply methods and technology to estimate derivatives accurately.",
+      "duration": "45 minutes",
+      "difficulty": "Beginner",
+      "file": "2.3-estimating-derivatives.md"
+    },
+    {
+      "id": "2.4",
+      "title": "Connecting Differentiability and Continuity: Determining When Derivatives Do and Do Not Exist",
+      "description": "Understand the relationship between differentiability and continuity and identify exceptions.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "2.4-differentiability-continuity.md"
+    },
+    {
+      "id": "2.5",
+      "title": "Applying the Power Rule",
+      "description": "Master the power rule for efficiently computing derivatives.",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "2.5-power-rule.md"
+    },
+    {
+      "id": "2.6",
+      "title": "Derivative Rules: Constant, Sum, Difference, and Constant Multiple",
+      "description": "Use foundational derivative rules to simplify expressions.",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "2.6-basic-derivative-rules.md"
+    },
+    {
+      "id": "2.7",
+      "title": "Derivatives of cos(x), sin(x), e^x, and ln(x)",
+      "description": "Differentiate common transcendental functions using appropriate rules.",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "2.7-common-function-derivatives.md"
+    },
+    {
+      "id": "2.8",
+      "title": "The Product Rule",
+      "description": "Learn how to differentiate products of functions.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "2.8-product-rule.md"
+    },
+    {
+      "id": "2.9",
+      "title": "The Quotient Rule",
+      "description": "Master differentiation of quotients of functions.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "2.9-quotient-rule.md"
+    },
+    {
+      "id": "2.10",
+      "title": "Finding the Derivatives of Tangent, Cotangent, Secant, and Cosecant Functions",
+      "description": "Differentiate the remaining trigonometric functions.",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "2.10-advanced-trig-derivatives.md"
+    }
+  ],
+  "prerequisites": [
+    "Limits and continuity",
+    "Basic algebra and function behavior",
+    "Precalculus review: trig, exponentials, logarithms"
+  ],
+  "keyConcepts": [
+    "Derivative as a limit",
+    "Tangent lines and slope",
+    "Differentiability and continuity",
+    "Rules of differentiation",
+    "Rates of change",
+    "Chain Rule and product/quotient rules"
+  ]
+}

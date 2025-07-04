@@ -1,0 +1,167 @@
+{
+  "unitId": "1-limits",
+  "title": "Unit 1: Limits and Continuity",
+  "subtitle": "Understanding the Foundation of Calculus",
+  "examWeighting": "10-12%",
+  "icon": "∞",
+  "description": "Understand what limits really mean, visually.",
+  "objectives": [
+    "Review essential Precalculus concepts and understand how Calculus builds upon them, including the tangent line and area problems.",
+    "Estimate limits using numerical, graphical, and analytical approaches, and identify cases where limits do not exist.",
+    "Evaluate limits using various techniques: limit laws, factoring, rationalizing, and the Squeeze Theorem.",
+    "Understand continuity at a point and across intervals using one-sided limits and continuity properties.",
+    "Apply the Intermediate Value Theorem and classify different types of discontinuities.",
+    "Analyze infinite limits, limits at infinity, and sketch vertical asymptotes of function graphs."
+  ],
+  "bigIdeas": [
+    "Can change occur at an instant?",
+    "How does knowing the value of a limit, or that a limit does not exist, help you to make sense of interesting features of functions and their graphs?",
+    "How do we close loopholes so that a conclusion about a function is always true?",
+    "Calculus allows us to generalize knowledge about motion to diverse problems involving change.",
+    "Reasoning with definitions, theorems, and properties can be used to justify claims about limits."
+  ],
+  "lessons": [
+    {
+      "id": "1.1",
+      "title": "Introducing Calculus: Can Change Occur at an Instant?",
+      "description": "Introduction to the fundamental question of calculus",
+      "duration": "45 minutes",
+      "difficulty": "Beginner",
+      "file": "1.1-introducing-calculus.md"
+    },
+    {
+      "id": "1.2",
+      "title": "Defining Limits and Using Limit Notation",
+      "description": "Formal definition and notation of limits",
+      "duration": "60 minutes",
+      "difficulty": "Beginner",
+      "file": "1.2-defining-limits.md"
+    },
+    {
+      "id": "1.3",
+      "title": "Estimating Limit Values from Graphs",
+      "description": "Visual approach to understanding limits",
+      "duration": "45 minutes",
+      "difficulty": "Beginner",
+      "file": "1.3-estimating-limits-graphs.md"
+    },
+    {
+      "id": "1.4",
+      "title": "Estimating Limit Values from Tables",
+      "description": "Numerical approach to limit estimation",
+      "duration": "45 minutes",
+      "difficulty": "Beginner",
+      "file": "1.4-estimating-limits-tables.md"
+    },
+    {
+      "id": "1.5",
+      "title": "Determining Limits Using Algebraic Properties of Limits",
+      "description": "Using limit properties for evaluation",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.5-algebraic-properties.md"
+    },
+    {
+      "id": "1.6",
+      "title": "Determining Limits Using Algebraic Manipulation",
+      "description": "Techniques for evaluating complex limits",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.6-algebraic-manipulation.md"
+    },
+    {
+      "id": "1.7",
+      "title": "Selecting Procedures for Determining Limits",
+      "description": "Choosing the right approach for different limit problems",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.7-selecting-procedures.md"
+    },
+    {
+      "id": "1.8",
+      "title": "Determining Limits Using the Squeeze Theorem",
+      "description": "Squeeze Theorem and trigonometric limits",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "1.8-squeeze-theorem.md"
+    },
+    {
+      "id": "1.9",
+      "title": "Connecting Multiple Representations of Limits",
+      "description": "Connecting graphical, numerical, and analytical approaches",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.9-multiple-representations.md"
+    },
+    {
+      "id": "1.10",
+      "title": "Exploring Types of Discontinuities",
+      "description": "Understanding different types of function discontinuities",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.10-types-discontinuities.md"
+    },
+    {
+      "id": "1.11",
+      "title": "Defining Continuity at a Point",
+      "description": "Formal definition of continuity",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.11-continuity-point.md"
+    },
+    {
+      "id": "1.12",
+      "title": "Confirming Continuity over an Interval",
+      "description": "Continuity on open and closed intervals",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.12-continuity-interval.md"
+    },
+    {
+      "id": "1.13",
+      "title": "Removing Discontinuities",
+      "description": "Techniques for fixing removable discontinuities",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.13-removing-discontinuities.md"
+    },
+    {
+      "id": "1.14",
+      "title": "Connecting Infinite Limits and Vertical Asymptotes",
+      "description": "Understanding vertical asymptotes through limits",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.14-infinite-limits-vertical.md"
+    },
+    {
+      "id": "1.15",
+      "title": "Connecting Limits at Infinity and Horizontal Asymptotes",
+      "description": "Understanding horizontal asymptotes through limits",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "1.15-limits-infinity-horizontal.md"
+    },
+    {
+      "id": "1.16",
+      "title": "Working with the Intermediate Value Theorem (IVT)",
+      "description": "Understanding and applying the IVT",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "1.16-intermediate-value-theorem.md"
+    }
+  ],
+  "prerequisites": [
+    "Precalculus concepts",
+    "Function notation",
+    "Graphing skills",
+    "Algebraic manipulation"
+  ],
+  "keyConcepts": [
+    "Limit definition",
+    "Continuity",
+    "One-sided limits",
+    "Infinite limits",
+    "Squeeze Theorem",
+    "Intermediate Value Theorem"
+  ]
+} 

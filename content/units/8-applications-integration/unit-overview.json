@@ -1,0 +1,142 @@
+{
+  "unitId": "8-applications-integration",
+  "title": "Unit 8: Applications of Integration",
+  "subtitle": "Use integrals to find volumes, work, and more",
+  "examWeighting": "10-15%",
+  "icon": "🔄",
+  "description": "Apply integration techniques to solve real-world problems involving volumes, work, and other applications.",
+  "objectives": [
+    "Calculate volumes of revolution using integrals",
+    "Find areas between curves",
+    "Apply integration to physics problems",
+    "Use integrals to calculate work and energy",
+    "Solve problems involving accumulation",
+    "Apply integration to real-world scenarios"
+  ],
+  "bigIdeas": [
+    "Volumes: Integrals calculate volumes of three-dimensional objects",
+    "Work: Integration measures work done by forces over distances",
+    "Accumulation: Integrals represent accumulated quantities over time",
+    "Physics: Integration connects to physical concepts like work and energy",
+    "Applications: Integration solves complex real-world problems"
+  ],
+  "lessons": [
+    {
+      "id": "8.1",
+      "title": "Finding the Average Value of a Function on an Interval",
+      "description": "Learn to calculate the average value of a function using definite integrals.",
+      "duration": "45 minutes",
+      "difficulty": "Beginner",
+      "file": "8.1-average-value.md",
+      "skills": ["1.E"]
+    },
+    {
+      "id": "8.2",
+      "title": "Connecting Position, Velocity, and Acceleration Using Integrals",
+      "description": "Use integrals to move between velocity and position or between acceleration and velocity.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.2-motion-integrals.md",
+      "skills": ["1.D"]
+    },
+    {
+      "id": "8.3",
+      "title": "Using Accumulation Functions and Definite Integrals in Applied Contexts",
+      "description": "Apply integration in real-world accumulation problems using graphical and analytical methods.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.3-applied-accumulation.md",
+      "skills": ["3.D", "CHA-5"]
+    },
+    {
+      "id": "8.4",
+      "title": "Finding the Area Between Curves (Functions of x)",
+      "description": "Use definite integrals to find areas between two curves in terms of x.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.4-area-x.md",
+      "skills": ["4.C"]
+    },
+    {
+      "id": "8.5",
+      "title": "Finding the Area Between Curves (Functions of y)",
+      "description": "Calculate areas between curves when expressed as functions of y.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.5-area-y.md",
+      "skills": ["1.E"]
+    },
+    {
+      "id": "8.6",
+      "title": "Finding the Area Between Curves That Intersect at More Than Two Points",
+      "description": "Identify correct intervals and switching curves when intersections change order.",
+      "duration": "45 minutes",
+      "difficulty": "Advanced",
+      "file": "8.6-multiple-intersections.md",
+      "skills": ["2.B"]
+    },
+    {
+      "id": "8.7",
+      "title": "Volumes with Cross Sections: Squares and Rectangles",
+      "description": "Use integration to find volumes of solids built from square or rectangular cross-sections.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.7-cross-sections-rectangles.md",
+      "skills": ["3.D"]
+    },
+    {
+      "id": "8.8",
+      "title": "Volumes with Cross Sections: Triangles and Semicircles",
+      "description": "Apply known area formulas to find volumes of solids with triangular or semicircular cross-sections.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.8-cross-sections-triangles.md",
+      "skills": ["3.D"]
+    },
+    {
+      "id": "8.9",
+      "title": "Volume with Disc Method: Revolving Around x- or y-Axis",
+      "description": "Use the disc method to find volumes of solids of revolution about major axes.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.9-disc-x-y.md",
+      "skills": ["3.D"]
+    },
+    {
+      "id": "8.10",
+      "title": "Volume with Disc Method: Revolving Around Other Axes",
+      "description": "Extend the disc method to solids rotated around horizontal or vertical lines other than axes.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.10-disc-other-axes.md",
+      "skills": ["2.D"]
+    },
+    {
+      "id": "8.11",
+      "title": "Volume with Washer Method: Revolving Around x- or y-Axis",
+      "description": "Find volumes of solids of revolution with holes using the washer method.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.11-washer-x-y.md",
+      "skills": ["4.E"]
+    },
+    {
+      "id": "8.12",
+      "title": "Volume with Washer Method: Revolving Around Other Axes",
+      "description": "Apply the washer method to rotations about lines other than the x- or y-axis.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "8.12-washer-other-axes.md",
+      "skills": ["2.D"]
+    }
+  ],
+  "prerequisites": [
+    "Integration basics",
+    "Area calculations"
+  ],
+  "keyConcepts": [
+    "Volumes of revolution",
+    "Areas between curves",
+    "Work and energy"
+  ]
+}

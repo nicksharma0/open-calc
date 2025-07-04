@@ -1,0 +1,91 @@
+{
+  "unitId": "3-differentiation-composite",
+  "title": "Unit 3: Deriving Composite, Implicit, and Inverse Functions",
+  "subtitle": "Unlocking Complex Derivatives with Advanced Techniques",
+  "examWeighting": "9-13%",
+  "icon": "🔗",
+  "description": "Master the Chain Rule, implicit differentiation, and derivatives of inverse and logarithmic functions.",
+  "objectives": [
+    "Differentiate composite functions using the Chain Rule.",
+    "Apply derivative rules to exponential and logarithmic functions.",
+    "Use implicit differentiation when functions aren’t easily solvable for y.",
+    "Find the derivative of an inverse function, including trig and logarithmic types.",
+    "Calculate tangent lines and local linear approximations using these advanced methods.",
+    "Strengthen problem-solving skills by selecting the most effective differentiation strategy."
+  ],
+  "bigIdeas": [
+    "Chain Rule connects rates of change in nested functions, like pressure over time through depth.",
+    "Implicit differentiation allows us to find derivatives when functions aren’t neatly solved for y.",
+    "Inverse functions can be differentiated using relationships between functions and their inverses.",
+    "Choosing the right rule makes complex problems manageable.",
+    "These tools expand how we model and understand changing systems."
+  ],
+  "lessons": [
+    {
+      "id": "3.1",
+      "title": "The Chain Rule",
+      "description": "Identify and apply the chain rule to find derivatives of composite functions.",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "3.1-chain-rule.md",
+      "skills": ["1.C"]
+    },
+    {
+      "id": "3.2",
+      "title": "Implicit Differentiation",
+      "description": "Use appropriate mathematical procedures, with and without technology, to differentiate implicit functions.",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "3.2-implicit-differentiation.md",
+      "skills": ["1.E"]
+    },
+    {
+      "id": "3.3",
+      "title": "Differentiating Inverse Functions",
+      "description": "Confirm that solutions for derivatives of inverse functions are accurate and appropriate.",
+      "duration": "45 minutes",
+      "difficulty": "Advanced",
+      "file": "3.3-inverse-functions.md",
+      "skills": ["3.G"]
+    },
+    {
+      "id": "3.4",
+      "title": "Differentiating Inverse Trigonometric Functions",
+      "description": "Apply rules to differentiate inverse trig functions like arcsin, arccos, and arctan.",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "3.4-inverse-trig.md",
+      "skills": ["1.E"]
+    },
+    {
+      "id": "3.5",
+      "title": "Selecting Procedures for Calculating Derivatives",
+      "description": "Identify the appropriate rule or procedure based on the classification of the expression.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "3.5-selecting-methods.md",
+      "skills": ["1.C"]
+    },
+    {
+      "id": "3.6",
+      "title": "Calculating Higher-Order Derivatives",
+      "description": "Apply appropriate rules to find second and higher derivatives using or without technology.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "3.6-higher-order-derivatives.md",
+      "skills": ["1.E"]
+    }
+  ],
+  "prerequisites": [
+    "Basic derivative rules",
+    "Familiarity with trig, exponential, and logarithmic functions",
+    "Understanding of inverse functions"
+  ],
+  "keyConcepts": [
+    "Chain Rule",
+    "Implicit differentiation",
+    "Derivatives of inverse functions",
+    "Higher-order derivatives",
+    "Selecting differentiation strategies"
+  ]
+}
