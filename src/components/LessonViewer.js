@@ -26,7 +26,7 @@ const LessonViewer = ({ darkMode }) => {
       setCurrentIdx(-1);
       try {
         // Fetch the unit overview JSON to get the lesson file and title
-        const unitRes = await fetch(`/content/units/${unitId}/unit-overview.json`);
+        const unitRes = await fetch(`${process.env.PUBLIC_URL}/content/units/${unitId}/unit-overview.json`);
         if (!unitRes.ok) throw new Error('Unit not found');
         const unitData = await unitRes.json();
         const lessons = unitData.lessons || [];
@@ -37,7 +37,7 @@ const LessonViewer = ({ darkMode }) => {
         const lesson = lessons[idx];
         setLessonTitle(lesson.title);
         // Fetch the markdown file
-        const mdRes = await fetch(`/content/units/${unitId}/${lesson.file}`);
+        const mdRes = await fetch(`${process.env.PUBLIC_URL}/content/units/${unitId}/${lesson.file}`);
         const md = await mdRes.text();
         if (
           !mdRes.ok ||
