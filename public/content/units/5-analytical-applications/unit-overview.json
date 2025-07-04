@@ -1,0 +1,144 @@
+{
+  "unitId": "5-analytical-applications",
+  "title": "Unit 5: Analytical Applications of Differentiation",
+  "subtitle": "Use derivatives for function analysis and optimization",
+  "examWeighting": "15-18%",
+  "icon": "📊",
+  "description": "Use derivatives to analyze function behavior, find extrema, and understand the shape of graphs.",
+  "objectives": [
+    "Use derivatives to find critical points and extrema",
+    "Apply the first and second derivative tests",
+    "Analyze function behavior and concavity",
+    "Use derivatives for curve sketching",
+    "Apply derivatives to optimization problems",
+    "Understand the relationship between derivatives and function behavior"
+  ],
+  "bigIdeas": [
+    "Critical Points: Points where derivatives are zero or undefined",
+    "Extrema: Maximum and minimum values found using derivative analysis",
+    "Concavity: Second derivatives reveal the shape and behavior of functions",
+    "Curve Sketching: Using derivatives to understand and draw function graphs",
+    "Optimization: Finding optimal values using analytical techniques"
+  ],
+  "lessons": [
+    {
+      "id": "5.1",
+      "title": "Using the Mean Value Theorem",
+      "description": "Understand and apply the Mean Value Theorem with reasoning and justification.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.1-mean-value-theorem.md",
+      "skills": ["3.E"]
+    },
+    {
+      "id": "5.2",
+      "title": "Extreme Value Theorem, Global vs Local Extrema, and Critical Points",
+      "description": "Learn to identify and justify global and local extrema and critical points.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.2-extreme-value-theorem.md",
+      "skills": ["3.E", "FUN-4"]
+    },
+    {
+      "id": "5.3",
+      "title": "Determining Intervals Where a Function is Increasing or Decreasing",
+      "description": "Analyze function behavior by examining intervals of increase and decrease.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.3-increasing-decreasing.md",
+      "skills": ["2.E"]
+    },
+    {
+      "id": "5.4",
+      "title": "Using the First Derivative Test to Determine Relative Extrema",
+      "description": "Apply the first derivative test to find relative maxima and minima.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.4-first-derivative-test.md",
+      "skills": ["3.D"]
+    },
+    {
+      "id": "5.5",
+      "title": "Using the Candidates Test to Determine Absolute Extrema",
+      "description": "Use candidates test and technology to determine absolute extrema.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.5-candidates-test.md",
+      "skills": ["1.E"]
+    },
+    {
+      "id": "5.6",
+      "title": "Determining Concavity of Functions Over Their Domains",
+      "description": "Describe concavity and its relation to derivatives over function domains.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.6-concavity.md",
+      "skills": ["2.E"]
+    },
+    {
+      "id": "5.7",
+      "title": "Using the Second Derivative Test to Determine Extrema",
+      "description": "Apply the second derivative test for classifying extrema.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.7-second-derivative-test.md",
+      "skills": ["3.D"]
+    },
+    {
+      "id": "5.8",
+      "title": "Sketching Graphs of Functions and Their Derivatives",
+      "description": "Identify relationships between functions and their first and second derivatives.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.8-sketching-graphs.md",
+      "skills": ["2.D"]
+    },
+    {
+      "id": "5.9",
+      "title": "Connecting a Function, Its First Derivative, and Its Second Derivative",
+      "description": "Explore how the function and its derivatives relate graphically and analytically.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.9-connecting-derivatives.md",
+      "skills": ["2.D"]
+    },
+    {
+      "id": "5.10",
+      "title": "Introduction to Optimization Problems",
+      "description": "Identify common structures in optimization problems involving derivatives.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "5.10-intro-optimization.md",
+      "skills": ["2.A"]
+    },
+    {
+      "id": "5.11",
+      "title": "Solving Optimization Problems",
+      "description": "Explain and solve optimization problems with contextual understanding.",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "5.11-solving-optimization.md",
+      "skills": ["3.F"]
+    },
+    {
+      "id": "5.12",
+      "title": "Exploring Behaviors of Implicit Relations",
+      "description": "Apply rules and reasoning to analyze implicit relations.",
+      "duration": "45 minutes",
+      "difficulty": "Advanced",
+      "file": "5.12-implicit-relations.md",
+      "skills": ["1.E", "3.E"]
+    }
+  ],
+  "prerequisites": [
+    "Differentiation techniques",
+    "Function analysis"
+  ],
+  "keyConcepts": [
+    "Critical points",
+    "Extrema",
+    "Concavity",
+    "Curve sketching",
+    "Optimization"
+  ]
+}

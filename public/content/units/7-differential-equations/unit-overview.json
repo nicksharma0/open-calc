@@ -1,0 +1,98 @@
+{
+  "unitId": "7-differential-equations",
+  "title": "Unit 7: Differential Equations",
+  "subtitle": "Modeling Dynamic Systems with Differential Equations",
+  "examWeighting": "6-12%",
+  "icon": "📈",
+  "description": "Learn about differential equations, their solutions, and applications in modeling real-world phenomena.",
+  "objectives": [
+    "Understand the concept of differential equations and their solutions",
+    "Solve separable differential equations",
+    "Use slope fields to analyze differential equations",
+    "Apply differential equations to model growth and decay",
+    "Understand logistic growth models",
+    "Solve initial value problems"
+  ],
+  "bigIdeas": [
+    "Differential equations describe rates of change and can model dynamic systems",
+    "Separable differential equations can be solved by separating variables",
+    "Slope fields provide visual representations of differential equations",
+    "Initial value problems combine differential equations with specific conditions",
+    "Differential equations are powerful tools for modeling real-world phenomena",
+    "Growth and decay models use differential equations to predict behavior over time"
+  ],
+  "lessons": [
+    {
+      "id": "7.1",
+      "title": "Modeling Situations with Differential Equations",
+      "description": "Introduction to differential equations and their applications in modeling real-world situations.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "7.1-modeling-differential-equations.md"
+    },
+    {
+      "id": "7.2",
+      "title": "Verifying Solutions for Differential Equations",
+      "description": "Learn how to verify that a function is a solution to a given differential equation.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "7.2-verifying-solutions.md"
+    },
+    {
+      "id": "7.3",
+      "title": "Sketching Slope Fields",
+      "description": "Create and interpret slope fields to visualize solutions to differential equations.",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "7.3-sketching-slope-fields.md"
+    },
+    {
+      "id": "7.4",
+      "title": "Reasoning Using Slope Fields",
+      "description": "Use slope fields to analyze the behavior of solutions to differential equations.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "7.4-reasoning-slope-fields.md"
+    },
+    {
+      "id": "7.6",
+      "title": "Finding General Solutions Using Separation of Variables",
+      "description": "Solve separable differential equations by separating variables and integrating.",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "7.6-separation-variables.md"
+    },
+    {
+      "id": "7.7",
+      "title": "Finding Particular Solutions Using Initial Conditions and Separation of Variables",
+      "description": "Solve initial value problems using separation of variables and initial conditions.",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "7.7-initial-value-problems.md"
+    },
+    {
+      "id": "7.8",
+      "title": "Exponential Models with Differential Equations",
+      "description": "Model exponential growth and decay using differential equations.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "7.8-exponential-models.md"
+    }
+  ],
+  "prerequisites": [
+    "Understanding of derivatives and their interpretations",
+    "Familiarity with integration techniques",
+    "Knowledge of exponential and logarithmic functions"
+  ],
+  "keyConcepts": [
+    "Differential equation",
+    "Solution to a differential equation",
+    "Separable differential equation",
+    "Slope field",
+    "Initial value problem",
+    "Euler's method",
+    "Exponential growth and decay",
+    "Logistic growth",
+    "Carrying capacity"
+  ]
+} 

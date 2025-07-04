@@ -1,0 +1,77 @@
+.landing-section {
+  background: linear-gradient(120deg, #e0e7ff 0%, #f3f8ff 100%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+}
+.landing-content {
+  background: rgba(255,255,255,0.95);
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.08);
+  padding: 3rem 2.5rem;
+  max-width: 480px;
+  text-align: center;
+}
+.platform-name {
+  font-size: 2.8rem;
+  font-weight: 800;
+  color: #5b6ee1;
+  margin-bottom: 0.5rem;
+  letter-spacing: -1px;
+}
+.tagline {
+  font-size: 1.3rem;
+  color: #7c88b6;
+  margin-bottom: 1.2rem;
+  font-weight: 500;
+}
+.intro {
+  font-size: 1.1rem;
+  color: #444;
+  margin-bottom: 2rem;
+}
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+.cta-btn {
+  padding: 0.85rem 1.7rem;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: transform 0.15s, box-shadow 0.15s, background 0.2s;
+  box-shadow: 0 2px 8px rgba(90,110,200,0.07);
+  outline: none;
+  text-decoration: none;
+  display: inline-block;
+}
+.cta-btn.primary {
+  background: #5b6ee1;
+  color: #fff;
+}
+.cta-btn.primary:hover {
+  background: #3d4db7;
+  transform: translateY(-2px) scale(1.04);
+}
+.cta-btn.secondary {
+  background: #e0e7ff;
+  color: #5b6ee1;
+}
+.cta-btn.secondary:hover {
+  background: #c7d2fe;
+  transform: translateY(-2px) scale(1.04);
+}
+@media (max-width: 600px) {
+  .landing-content {
+    padding: 2rem 1rem;
+    max-width: 98vw;
+  }
+  .platform-name {
+    font-size: 2rem;
+  }
+} 

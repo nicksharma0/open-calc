@@ -1,0 +1,29 @@
+.about-creator-section {
+  background: #f3f8ff;
+  padding: 4rem 1rem 3rem 1rem;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+}
+.about-creator-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #5b6ee1;
+  margin-bottom: 2rem;
+  font-weight: 800;
+}
+.about-content {
+  max-width: 700px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 18px rgba(60,60,120,0.07);
+  padding: 2.2rem 2rem 2rem 2rem;
+  font-size: 1.08rem;
+  color: #444;
+  line-height: 1.7;
+}
+@media (max-width: 700px) {
+  .about-content {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+    font-size: 1rem;
+  }
+} 

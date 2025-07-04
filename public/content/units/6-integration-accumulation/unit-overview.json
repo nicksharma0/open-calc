@@ -1,0 +1,127 @@
+{
+  "unitId": "6-integration-accumulation",
+  "title": "Unit 6: Integration and Accumulation of Change",
+  "subtitle": "Use integrals to model accumulation and solve real-world problems",
+  "examWeighting": "17-20%",
+  "icon": "∫",
+  "description": "Explore how integrals represent accumulation of change, connect differentiation and integration through the Fundamental Theorem of Calculus, and apply numerical and analytical methods to evaluate integrals.",
+  "objectives": [
+    "Understand and solve differential equations with antiderivatives",
+    "Use definite integral notation and evaluate definite integrals",
+    "Approximate area using Riemann sums and trapezoidal rule",
+    "Apply the Fundamental Theorem of Calculus to relate derivatives and integrals",
+    "Interpret integrals as accumulation functions in real-world contexts",
+    "Integrate using substitution, power rule, and other techniques",
+    "Evaluate integrals involving trig and exponential functions",
+    "Analyze properties of definite integrals including even/odd functions"
+  ],
+  "bigIdeas": [
+    "Integration models accumulation of quantities over intervals",
+    "The Fundamental Theorem of Calculus connects differentiation and integration",
+    "Numerical methods approximate integrals when exact solutions are difficult",
+    "Integration relates rates of change to total change in applied problems",
+    "Recognizing geometric and algebraic patterns simplifies integration"
+  ],
+  "lessons": [
+    {
+      "id": "6.1",
+      "title": "Exploring Accumulations of Change",
+      "description": "Understand how accumulation relates to integrals and rates of change.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.1-lesson.md"
+    },
+    {
+      "id": "6.2",
+      "title": "Approximating Areas with Riemann Sums",
+      "description": "Learn to approximate areas using left, right, and midpoint sums.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.2-lesson.md"
+    },
+    {
+      "id": "6.3",
+      "title": "Riemann Sums, Summation Notation, and Definite Integral Notation",
+      "description": "Connect sigma notation with definite integrals and sums.",
+      "duration": "40 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.3-lesson.md"
+    },
+    {
+      "id": "6.4",
+      "title": "The Fundamental Theorem of Calculus and Accumulation Functions",
+      "description": "Explore the relationship between differentiation and integration.",
+      "duration": "50 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.4-lesson.md"
+    },
+    {
+      "id": "6.5",
+      "title": "Interpreting the Behavior of Accumulation Functions",
+      "description": "Analyze how accumulation functions behave graphically and analytically.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.5-lesson.md"
+    },
+    {
+      "id": "6.6",
+      "title": "Applying Properties of Definite Integrals",
+      "description": "Use properties and rules to simplify integral calculations.",
+      "duration": "40 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.6-lesson.md"
+    },
+    {
+      "id": "6.7",
+      "title": "The Fundamental Theorem of Calculus and Definite Integrals",
+      "description": "Evaluate definite integrals using the Fundamental Theorem.",
+      "duration": "50 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.7-lesson.md"
+    },
+    {
+      "id": "6.8",
+      "title": "Finding Antiderivatives and Indefinite Integrals: Basic Rules and Notation",
+      "description": "Learn basic integration rules and notation.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.8-lesson.md"
+    },
+    {
+      "id": "6.9",
+      "title": "Integrating Using Substitution",
+      "description": "Apply substitution to evaluate integrals.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.9-lesson.md"
+    },
+    {
+      "id": "6.10",
+      "title": "Integrating Functions Using Long Division and Completing the Square",
+      "description": "Use algebraic techniques to simplify integrals.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "6.10-lesson.md"
+    },
+    {
+      "id": "6.14",
+      "title": "Selecting Techniques for Antidifferentiation",
+      "description": "Choose appropriate methods for antidifferentiation based on the function type.",
+      "duration": "50 minutes",
+      "difficulty": "Advanced",
+      "file": "6.14-lesson.md"
+    }
+  ],
+  "prerequisites": [
+    "Basic differentiation",
+    "Limits and continuity",
+    "Understanding of definite and indefinite integrals"
+  ],
+  "keyConcepts": [
+    "Definite integrals",
+    "Riemann sums",
+    "Fundamental Theorem of Calculus",
+    "Integration techniques",
+    "Accumulation functions"
+  ]
+}

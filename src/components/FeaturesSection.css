@@ -1,0 +1,95 @@
+.features-section {
+  background: #e0e7ff;
+  padding: 4rem 1rem 3rem 1rem;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+  transition: background 0.4s;
+}
+.features-section.dark {
+  background: #23263a;
+}
+.features-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #5b6ee1;
+  margin-bottom: 2.2rem;
+  font-weight: 800;
+  letter-spacing: -1px;
+  transition: color 0.4s;
+}
+.features-section.dark .features-title {
+  color: #bfcfff;
+}
+.features-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.feature-box {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 18px rgba(60,60,120,0.07);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  flex: 1 1 220px;
+  min-width: 220px;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.13s, box-shadow 0.13s, background 0.4s;
+  cursor: pointer;
+}
+.feature-box:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(60,60,120,0.13);
+  background: linear-gradient(120deg, #e0e7ff 0%, #f3f8ff 100%);
+}
+.features-section.dark .feature-box {
+  background: #2d314d;
+  box-shadow: 0 4px 18px rgba(30,30,60,0.13);
+}
+.features-section.dark .feature-box:hover {
+  background: linear-gradient(120deg, #23263a 0%, #3d4db7 100%);
+}
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+  color: #5b6ee1;
+  transition: color 0.4s;
+}
+.features-section.dark .feature-icon {
+  color: #bfcfff;
+}
+.feature-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #5b6ee1;
+  margin-bottom: 0.3rem;
+  transition: color 0.4s;
+}
+.features-section.dark .feature-title {
+  color: #bfcfff;
+}
+.feature-desc {
+  font-size: 0.98rem;
+  color: #555;
+  transition: color 0.4s;
+}
+.features-section.dark .feature-desc {
+  color: #bfcfff;
+}
+@media (max-width: 900px) {
+  .features-row {
+    gap: 1.2rem;
+  }
+}
+@media (max-width: 700px) {
+  .features-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+} 

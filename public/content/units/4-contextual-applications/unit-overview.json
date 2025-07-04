@@ -1,0 +1,99 @@
+{
+  "unitId": "4-contextual-applications",
+  "title": "Unit 4: Contextual Applications of Differentiation",
+  "subtitle": "Apply derivatives to real-world problems and scenarios",
+  "examWeighting": "10-15%",
+  "icon": "🌍",
+  "description": "Apply differentiation to solve real-world problems involving rates of change, motion, and optimization.",
+  "objectives": [
+    "Solve related rates problems",
+    "Apply derivatives to motion problems",
+    "Use derivatives in optimization scenarios",
+    "Interpret derivatives in real-world contexts",
+    "Apply differentiation to physics and economics problems",
+    "Model real-world phenomena using derivatives"
+  ],
+  "bigIdeas": [
+    "Related Rates: Problems involving rates of change of related quantities",
+    "Motion: Using derivatives to analyze velocity and acceleration",
+    "Optimization: Finding maximum and minimum values in real-world scenarios",
+    "Interpretation: Understanding what derivatives mean in context",
+    "Modeling: Using calculus to model real-world phenomena"
+  ],
+  "lessons": [
+    {
+      "id": "4.1",
+      "title": "Interpreting the Meaning of the Derivative in Context",
+      "description": "Identify and apply the meaning of derivatives in real-world scenarios.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "4.1-interpreting-derivative-context.md",
+      "skills": ["1.D"]
+    },
+    {
+      "id": "4.2",
+      "title": "Straight-Line Motion: Connecting Position, Velocity, and Acceleration",
+      "description": "Apply mathematical procedures to analyze motion along a line.",
+      "duration": "60 minutes",
+      "difficulty": "Intermediate",
+      "file": "4.2-straight-line-motion.md",
+      "skills": ["1.E"]
+    },
+    {
+      "id": "4.3",
+      "title": "Rates of Change in Applied Contexts Other Than Motion",
+      "description": "Identify common problem structures involving rates of change outside of motion.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "4.3-rates-change-applied.md",
+      "skills": ["2.A"]
+    },
+    {
+      "id": "4.4",
+      "title": "Introduction to Related Rates",
+      "description": "Learn to set up and apply related rates problems using derivatives.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "4.4-intro-related-rates.md",
+      "skills": ["1.E"]
+    },
+    {
+      "id": "4.5",
+      "title": "Solving Related Rates Problems",
+      "description": "Explain and solve related rates problems with real-world context.",
+      "duration": "60 minutes",
+      "difficulty": "Advanced",
+      "file": "4.5-solving-related-rates.md",
+      "skills": ["3.F"]
+    },
+    {
+      "id": "4.6",
+      "title": "Approximating Values of a Function Using Local Linearity and Linearization",
+      "description": "Explain how local linearity helps approximate function values.",
+      "duration": "45 minutes",
+      "difficulty": "Intermediate",
+      "file": "4.6-local-linearity-linearization.md",
+      "skills": ["1.F", "LIM-4"]
+    },
+    {
+      "id": "4.7",
+      "title": "Using L’Hospital’s Rule for Determining Limits of Indeterminate Forms",
+      "description": "Apply L’Hospital’s Rule to evaluate limits with indeterminate forms.",
+      "duration": "45 minutes",
+      "difficulty": "Advanced",
+      "file": "4.7-lhospital-rule.md",
+      "skills": ["3.D"]
+    }
+  ],
+  "prerequisites": [
+    "Differentiation techniques",
+    "Basic physics concepts"
+  ],
+  "keyConcepts": [
+    "Related rates",
+    "Motion analysis",
+    "Optimization",
+    "Linearization",
+    "L’Hospital’s Rule"
+  ]
+}

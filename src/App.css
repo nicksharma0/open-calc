@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Poppins:wght@400;700&display=swap');
+
+body, html, #root, .App {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+  background: #f3f8ff;
+  color: #222;
+  scroll-behavior: smooth;
+  transition: background 0.4s, color 0.4s;
+}
+
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  background: #f3f8ff;
+  transition: background 0.4s, color 0.4s;
+}
+
+.App.dark, body.dark, html.dark {
+  background: #23263a;
+  color: #e0e7ff;
+}
+
+.App.dark {
+  background: #23263a;
+  color: #e0e7ff;
+}
+
+/* Remove default header/footer styles */
+
+::-webkit-scrollbar {
+  width: 10px;
+  background: #e0e7ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #bfcfff;
+  border-radius: 6px;
+}
+.App.dark ::-webkit-scrollbar {
+  background: #23263a;
+}
+.App.dark ::-webkit-scrollbar-thumb {
+  background: #3d4db7;
+}
+
+/* Remove old .App-header, .App-logo, .App-link, etc. */
+
+.auth-modal-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(35, 38, 58, 0.35);
+  backdrop-filter: blur(2px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInBg 0.2s;
+}
+.auth-modal {
+  background: none;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.13);
+  animation: fadeInModal 0.25s;
+}
+@keyframes fadeInBg {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeInModal {
+  from { transform: scale(0.95); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+

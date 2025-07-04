@@ -1,0 +1,64 @@
+.why-opencalc-section {
+  background: #e0e7ff;
+  padding: 4rem 1rem 3rem 1rem;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+}
+.why-opencalc-section h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #5b6ee1;
+  margin-bottom: 2.2rem;
+  font-weight: 800;
+}
+.features-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.feature-col {
+  background: #fff;
+  border-radius: 1.2rem;
+  box-shadow: 0 4px 18px rgba(60,60,120,0.07);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  flex: 1 1 220px;
+  min-width: 220px;
+  max-width: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.13s, box-shadow 0.13s;
+}
+.feature-col:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(60,60,120,0.13);
+}
+.feature-icon {
+  font-size: 2rem;
+  margin-bottom: 0.7rem;
+}
+.feature-title {
+  font-size: 1.08rem;
+  font-weight: 700;
+  color: #5b6ee1;
+  margin-bottom: 0.3rem;
+}
+.feature-desc {
+  font-size: 0.98rem;
+  color: #555;
+}
+@media (max-width: 900px) {
+  .features-row {
+    gap: 1.2rem;
+  }
+}
+@media (max-width: 700px) {
+  .features-row {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+  }
+} 

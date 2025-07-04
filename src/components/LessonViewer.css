@@ -1,0 +1,250 @@
+.lesson-viewer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.lesson-loading {
+  text-align: center;
+  padding: 4rem 2rem;
+  font-size: 1.2rem;
+  color: #5b6ee1;
+}
+
+.lesson-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e0e7ff;
+}
+
+.lesson-back-btn {
+  background: none;
+  border: none;
+  color: #5b6ee1;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  transition: color 0.2s;
+}
+
+.lesson-back-btn:hover {
+  color: #3d4db7;
+}
+
+.lesson-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #23263a;
+  margin-bottom: 0.5rem;
+}
+
+.lesson-meta {
+  display: flex;
+  gap: 1rem;
+  font-size: 0.9rem;
+  color: #7c88b6;
+}
+
+.lesson-duration, .lesson-difficulty {
+  background: #f3f8ff;
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  font-weight: 600;
+}
+
+.lesson-content {
+  margin-bottom: 3rem;
+}
+
+.lesson-h1 {
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #23263a;
+  margin: 2rem 0 1rem 0;
+  border-bottom: 3px solid #5b6ee1;
+  padding-bottom: 0.5rem;
+}
+
+.lesson-h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #5b6ee1;
+  margin: 1.8rem 0 1rem 0;
+}
+
+.lesson-h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3d4db7;
+  margin: 1.5rem 0 0.8rem 0;
+}
+
+.lesson-p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #444;
+}
+
+.lesson-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: #fff;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(60,60,120,0.07);
+}
+
+.lesson-th {
+  background: #5b6ee1;
+  color: #fff;
+  padding: 1rem;
+  text-align: left;
+  font-weight: 600;
+}
+
+.lesson-td {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e7ff;
+}
+
+.lesson-td:last-child {
+  border-bottom: none;
+}
+
+.lesson-inline-code {
+  background: #f3f8ff;
+  color: #5b6ee1;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.3rem;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 0.9rem;
+}
+
+.lesson-code-block {
+  background: #f8f9fa;
+  border: 1px solid #e0e7ff;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: 'Monaco', 'Consolas', monospace;
+  font-size: 0.9rem;
+  overflow-x: auto;
+}
+
+.lesson-blockquote {
+  border-left: 4px solid #5b6ee1;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: #555;
+  background: #f3f8ff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.lesson-navigation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  border-top: 2px solid #e0e7ff;
+}
+
+.nav-btn {
+  background: #5b6ee1;
+  color: #fff;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.nav-btn:hover:not(:disabled) {
+  background: #3d4db7;
+  transform: translateY(-2px);
+}
+
+.nav-btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Math equation styling */
+.katex {
+  font-size: 1.1em;
+}
+
+.katex-display {
+  margin: 1.5rem 0;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .lesson-viewer {
+    padding: 1rem 0.5rem;
+  }
+  
+  .lesson-title {
+    font-size: 1.6rem;
+  }
+  
+  .lesson-h1 {
+    font-size: 1.8rem;
+  }
+  
+  .lesson-h2 {
+    font-size: 1.5rem;
+  }
+  
+  .lesson-table {
+    font-size: 0.9rem;
+  }
+  
+  .lesson-th, .lesson-td {
+    padding: 0.7rem;
+  }
+}
+
+.lesson-viewer.dark {
+  background: #23263a;
+  color: #e0e7ff;
+}
+
+.lesson-viewer.dark .lesson-title,
+.lesson-viewer.dark .lesson-h1,
+.lesson-viewer.dark .lesson-h2,
+.lesson-viewer.dark .lesson-h3 {
+  color: #bfcfff;
+}
+
+.lesson-viewer.dark .lesson-table {
+  background: #2d314d;
+  color: #e0e7ff;
+}
+
+.lesson-viewer.dark .lesson-th {
+  background: #3d4db7;
+  color: #fff;
+}
+
+.lesson-viewer.dark .lesson-inline-code,
+.lesson-viewer.dark .lesson-blockquote {
+  background: #2d314d;
+  color: #e0e7ff;
+}
+
+.lesson-viewer.dark .lesson-code-block {
+  background: #2d314d;
+  color: #e0e7ff;
+  border-color: #3d4db7;
+} 

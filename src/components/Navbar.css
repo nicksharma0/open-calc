@@ -1,0 +1,104 @@
+.navbar {
+  width: 100vw;
+  background: rgba(255,255,255,0.92);
+  box-shadow: 0 2px 12px rgba(60,60,120,0.04);
+  padding: 0.7rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  transition: background 0.4s;
+}
+.navbar.dark {
+  background: rgba(35,38,58,0.97);
+  box-shadow: 0 2px 12px rgba(30,30,60,0.13);
+}
+.navbar-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+.navbar-logo-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: opacity 0.2s;
+}
+.navbar-logo-btn:hover {
+  opacity: 0.8;
+}
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #5b6ee1;
+  text-decoration: none;
+}
+.navbar.dark .navbar-logo {
+  color: #bfcfff;
+}
+.dark-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+  transition: color 0.3s, transform 0.15s;
+  color: #5b6ee1;
+}
+.navbar.dark .dark-toggle {
+  color: #e0e7ff;
+}
+.dark-toggle:hover {
+  transform: scale(1.15) rotate(-10deg);
+}
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+}
+.profile-icon-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+.profile-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #bfcfff 0%, #5b6ee1 100%);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(90,110,200,0.13);
+  transition: background 0.18s, transform 0.13s;
+}
+.profile-icon-btn:hover .profile-icon {
+  background: linear-gradient(135deg, #5b6ee1 0%, #bfcfff 100%);
+  transform: scale(1.08) rotate(-3deg);
+}
+.signup-btn {
+  background: #5b6ee1;
+  color: #fff;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 0.6rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.13s;
+  box-shadow: 0 2px 8px rgba(90,110,200,0.07);
+}
+.signup-btn:hover {
+  background: #3d4db7;
+  transform: translateY(-2px) scale(1.04);
+} 

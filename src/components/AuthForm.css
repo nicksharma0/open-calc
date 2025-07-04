@@ -1,0 +1,103 @@
+.auth-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  background: none;
+}
+.auth-form {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(60,60,120,0.09);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+}
+.auth-form h2 {
+  text-align: center;
+  color: #5b6ee1;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+.auth-form input {
+  padding: 0.9rem 1.1rem;
+  border-radius: 1rem;
+  border: 1.5px solid #e0e7ff;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+  background: #f3f8ff;
+}
+.auth-form input:focus {
+  border: 1.5px solid #5b6ee1;
+}
+.auth-error {
+  color: #e14b5b;
+  background: #ffe0e7;
+  border-radius: 0.7rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.98rem;
+  text-align: center;
+}
+.auth-form button {
+  background: linear-gradient(120deg, #5b6ee1 0%, #7c88b6 100%);
+  color: #fff;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 0.9rem 0;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.13s;
+  box-shadow: 0 2px 8px rgba(90,110,200,0.07);
+}
+.auth-form button:hover:not(:disabled) {
+  background: linear-gradient(120deg, #3d4db7 0%, #5b6ee1 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+.auth-form button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+.auth-switch {
+  text-align: center;
+  font-size: 0.98rem;
+  color: #555;
+}
+.auth-switch span {
+  color: #5b6ee1;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 0.2rem;
+  transition: color 0.18s;
+}
+.auth-switch span:hover {
+  color: #3d4db7;
+}
+.auth-message {
+  background: #ffe6e6;
+  color: #b80000;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.auth-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.7rem 0 1.2rem 0;
+  font-size: 0.98rem;
+  color: #23263a;
+}
+.auth-form input[type="checkbox"] {
+  accent-color: #5b6ee1;
+  width: 1.1em;
+  height: 1.1em;
+} 

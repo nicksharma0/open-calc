@@ -1,0 +1,74 @@
+.curriculum-section {
+  background: #f3f8ff;
+  padding: 4rem 1rem 3rem 1rem;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+}
+.curriculum-section h2 {
+  text-align: center;
+  font-size: 2.1rem;
+  color: #5b6ee1;
+  margin-bottom: 2.5rem;
+  font-weight: 800;
+}
+.units-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.unit-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 4px 24px rgba(60,60,120,0.07);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.13s, box-shadow 0.13s;
+}
+.unit-card:hover {
+  transform: translateY(-4px) scale(1.025);
+  box-shadow: 0 8px 32px rgba(60,60,120,0.13);
+}
+.unit-emoji {
+  font-size: 2.2rem;
+  margin-bottom: 0.7rem;
+}
+.unit-title {
+  font-size: 1.18rem;
+  font-weight: 700;
+  color: #5b6ee1;
+  margin-bottom: 0.4rem;
+}
+.unit-desc {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+.start-unit-btn {
+  background: #7c88b6;
+  color: #fff;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.13s;
+  box-shadow: 0 2px 8px rgba(90,110,200,0.07);
+}
+.start-unit-btn:hover {
+  background: #5b6ee1;
+  transform: translateY(-2px) scale(1.04);
+}
+@media (max-width: 700px) {
+  .units-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+  .curriculum-section {
+    padding: 2.5rem 0.2rem 2rem 0.2rem;
+  }
+} 

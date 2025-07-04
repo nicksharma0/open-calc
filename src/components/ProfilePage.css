@@ -1,0 +1,106 @@
+.profile-page-bg {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(35, 38, 58, 0.35);
+  backdrop-filter: blur(2px);
+  z-index: 3000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInBg 0.2s;
+}
+.profile-page-card {
+  background: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 32px rgba(60,60,120,0.13);
+  padding: 2.5rem 2rem 2rem 2rem;
+  max-width: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  animation: fadeInModal 0.25s;
+}
+.profile-back {
+  position: absolute;
+  left: 1.2rem;
+  top: 1.2rem;
+  background: none;
+  border: none;
+  color: #5b6ee1;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.18s;
+}
+.profile-back:hover {
+  color: #3d4db7;
+}
+.profile-pic-large-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.2rem;
+}
+.profile-pic-large {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 18px rgba(60,60,120,0.13);
+  border: 4px solid #e0e7ff;
+  background: #e0e7ff;
+  transition: border 0.4s;
+}
+.profile-page-card h2 {
+  margin: 0.5rem 0 0.2rem 0;
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #5b6ee1;
+}
+.profile-email {
+  color: #555;
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+.profile-date {
+  color: #7c88b6;
+  font-size: 0.98rem;
+}
+.profile-icon-large {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #bfcfff 0%, #5b6ee1 100%);
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 18px rgba(90,110,200,0.13);
+  margin-bottom: 1.2rem;
+}
+.logout-btn {
+  margin-top: 1.5rem;
+  background: #e14b5b;
+  color: #fff;
+  border: none;
+  border-radius: 1.2rem;
+  padding: 0.8rem 1.7rem;
+  font-size: 1.08rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s, transform 0.13s;
+  box-shadow: 0 2px 8px rgba(200,60,60,0.07);
+}
+.logout-btn:hover {
+  background: #b92c3a;
+  transform: translateY(-2px) scale(1.04);
+}
+@media (max-width: 700px) {
+  .profile-page-card {
+    padding: 1.2rem 0.7rem 1rem 0.7rem;
+    font-size: 1rem;
+  }
+} 
