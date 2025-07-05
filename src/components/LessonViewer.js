@@ -95,6 +95,15 @@ const LessonViewer = ({ darkMode }) => {
             children={markdown}
             remarkPlugins={[remarkMath]}
             rehypePlugins={[rehypeKatex]}
+            components={{
+              img: ({ src, alt, ...props }) => (
+                <img 
+                  src={src?.startsWith('http') ? src : `${process.env.PUBLIC_URL}/content/units/${unitId}/${src}`}
+                  alt={alt}
+                  {...props}
+                />
+              )
+            }}
           />
         </>
       )}
