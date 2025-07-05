@@ -10,6 +10,14 @@
       // This script takes the current url and converts the path and query
       // string into just a query string, and then redirects the browser
       // to the new url with only a query string and hash fragment.
+      
+      // Don't redirect static files (like markdown, images, etc.)
+      var path = window.location.pathname;
+      if (path.includes('/content/') || path.includes('.md') || path.includes('.png') || path.includes('.jpg') || path.includes('.json')) {
+        // Let the server handle static files
+        return;
+      }
+      
       var pathSegmentsToKeep = 1;
 
       var l = window.location;
