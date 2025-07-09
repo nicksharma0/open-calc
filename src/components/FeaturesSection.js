@@ -2,9 +2,9 @@ import React from 'react';
 import './FeaturesSection.css';
 
 const features = [
-  { icon: '🔍', title: 'Visual Demos of Every Topic', desc: 'Interactive graphs and animations that make abstract concepts click.' },
-  { icon: '🎯', title: 'AP Practice Questions', desc: 'Targeted problems that mirror the actual AP Calculus AB exam.' },
-  { icon: '💬', title: 'Concept Explanations in Plain English', desc: 'No confusing jargon—just clear, intuitive explanations.' },
+  { icon: '📚', title: 'Complete AP Calculus AB Course', desc: 'All 8 units covering every topic from limits to integration with detailed lessons.' },
+  { icon: '💡', title: 'Clear Concept Explanations', desc: 'No confusing jargon—just clear, intuitive explanations in plain English.' },
+  { icon: '🌙', title: 'Dark Mode & Modern Design', desc: 'Beautiful, responsive interface that adapts to your preferences.' },
   { icon: '✍️', title: 'Built by Students, for Students', desc: 'Created by someone who actually went through the struggle.' },
 ];
 
