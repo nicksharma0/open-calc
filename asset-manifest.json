@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/open-calc/static/css/main.422644ca.css",
-    "main.js": "/open-calc/static/js/main.fb547574.js",
+    "main.js": "/open-calc/static/js/main.cf456e15.js",
     "static/js/488.5c3e7809.chunk.js": "/open-calc/static/js/488.5c3e7809.chunk.js",
     "static/media/KaTeX_AMS-Regular.ttf": "/open-calc/static/media/KaTeX_AMS-Regular.853be92419a6c3766b9a.ttf",
     "static/media/KaTeX_Main-Regular.ttf": "/open-calc/static/media/KaTeX_Main-Regular.9eba1d77abcf2aa6e94e.ttf",
@@ -66,11 +66,11 @@
     "static/media/KaTeX_Size3-Regular.woff2": "/open-calc/static/media/KaTeX_Size3-Regular.e1951519f6f0596f7356.woff2",
     "index.html": "/open-calc/index.html",
     "main.422644ca.css.map": "/open-calc/static/css/main.422644ca.css.map",
-    "main.fb547574.js.map": "/open-calc/static/js/main.fb547574.js.map",
+    "main.cf456e15.js.map": "/open-calc/static/js/main.cf456e15.js.map",
     "488.5c3e7809.chunk.js.map": "/open-calc/static/js/488.5c3e7809.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.422644ca.css",
-    "static/js/main.fb547574.js"
+    "static/js/main.cf456e15.js"
   ]
 }
