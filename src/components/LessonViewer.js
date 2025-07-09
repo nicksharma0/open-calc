@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import remarkMath from 'remark-math';
+import remarkGfm from 'remark-gfm';
 import rehypeKatex from 'rehype-katex';
 import 'katex/dist/katex.min.css';
 import './LessonViewer.css';
@@ -93,7 +94,7 @@ const LessonViewer = ({ darkMode }) => {
           <h1 className="lesson-title">{lessonTitle}</h1>
           <ReactMarkdown
             children={markdown}
-            remarkPlugins={[remarkMath]}
+            remarkPlugins={[remarkMath, remarkGfm]}
             rehypePlugins={[rehypeKatex]}
             components={{
               img: ({ src, alt, ...props }) => (
@@ -102,6 +103,21 @@ const LessonViewer = ({ darkMode }) => {
                   alt={alt}
                   {...props}
                 />
+              ),
+              table: ({ children, ...props }) => (
+                <table className="lesson-table" {...props}>
+                  {children}
+                </table>
+              ),
+              th: ({ children, ...props }) => (
+                <th className="lesson-th" {...props}>
+                  {children}
+                </th>
+              ),
+              td: ({ children, ...props }) => (
+                <td className="lesson-td" {...props}>
+                  {children}
+                </td>
               )
             }}
           />
